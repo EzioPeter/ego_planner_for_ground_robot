@@ -1,0 +1,7 @@
+[submodule "src/ackermann_vehicle_base_gazebo"]
+	path = src/ackermann_vehicle_base_gazebo
+	url = https://github.com/EzioPeter/ackermann_vehicle_base_gazebo.git
+[submodule "src/ego-planner"]
+	path = src/ego-planner
+	url = https://github.com/EzioPeter/ego-planner.git
+	branch = ground_robot
