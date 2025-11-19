@@ -22,6 +22,7 @@ sudo apt-get install ros-noetic-controller-interface  ros-noetic-gazebo-ros-cont
 git clone https://github.com/EzioPeter/ego_planner_for_ground_robot.git
 cd ego_planner_for_ground_robot
 git submodule update --init --recursive
+source /opt/ros/noetic/setup.bash 
 rosdep install --from-paths src --ignore-src -r -y
 catkin_make -DCMAKE_BUILD_TYPE=Release
 ```
