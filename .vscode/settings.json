@@ -1,0 +1,14 @@
+{
+    "files.associations": {
+        "thread": "cpp"
+    },
+    "ros.distro": "noetic",
+    "python.autoComplete.extraPaths": [
+        "/root/ego_planner_for_ground_robot/devel/lib/python3/dist-packages",
+        "/opt/ros/noetic/lib/python3/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/root/ego_planner_for_ground_robot/devel/lib/python3/dist-packages",
+        "/opt/ros/noetic/lib/python3/dist-packages"
+    ]
+}

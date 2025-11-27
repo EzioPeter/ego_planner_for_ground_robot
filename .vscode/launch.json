@@ -1,0 +1,21 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        
+        {
+            "name": "run_in_ackermann",
+            "request": "launch",
+            "target": "/root/ego_planner_for_ground_robot/src/ego-planner/src/planner/plan_manage/launch/run_in_ackermann.launch",
+            "launch": [
+                "rviz",
+                "gz",
+                "gzclient",
+                "gzserver"
+            ],
+            "type": "ros"
+        }
+    ]
+}
